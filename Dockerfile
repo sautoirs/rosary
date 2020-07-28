@@ -13,6 +13,7 @@ RUN apt-get update && \
 	cmake \
 	ninja-build \
 	make \
+	g++ \
 	subversion \
 	git && \
     apt-get clean
