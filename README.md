@@ -1,5 +1,7 @@
 # Rosary
 
+![Docker](https://github.com/sautoirs/rosary/workflows/Docker/badge.svg)
+
 Image for cross building and debugging bare metal projects
 
 # Usage
