@@ -8,9 +8,9 @@ Image for cross building and debugging bare metal projects
 
 ```bash
 # You can choose a version (e.g. 0.2.0) instead of `latest`
-docker pull docker.pkg.github.com/sautoirs/rosary/rosary:latest
+docker pull sautoirs/rosary:latest
 # Create a shorted tag for the downloaded image
-docker tag docker.pkg.github.com/sautoirs/rosary/rosary:latest rosary
+docker tag sautoirs/rosary:latest rosary
 ```
 
 ## Run a single command
