@@ -15,8 +15,17 @@ RUN apt-get update && \
         ninja-build \
         make \
         g++ \
+        clangd \
+        python3 \
         subversion \
         git && \
+    apt-get install -y \
+        python3-pip && \
+    pip3 install \
+        cmake-language-server && \
+    apt-get remove --purge -y \
+        python3-pip && \
+    apt-get autoremove -y && \
     apt-get clean
 
 WORKDIR /workdir
